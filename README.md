@@ -25,10 +25,7 @@ How to Run:
 
 `./fibonacci`
 
--  add : 16
-mul : 20
-sub : -4
-fibo : 2
+-  The program will output the values of Fibonacci(10) and Fibonacci(20) to the console.
 
 Note: If you are using a different operating system or compiler, the compilation and execution commands may be different. Please consult the documentation for your specific environment to learn how to compile and run C programs.
 
@@ -48,7 +45,7 @@ Disadvantages:
 
 ### Memoization
 
-The source code can be found in the `emoization.c` file above
+The source code can be found in the `memoization.c` file above
 
 Advantages:
 
