@@ -30,7 +30,9 @@ How to Run:
 Note: If you are using a different operating system or compiler, the compilation and execution commands may be different. Please consult the documentation for your specific environment to learn how to compile and run C programs.
 
 ## 2. Recurrence
-1.  Recursive Function
+### Recursive Function
+
+The source code can be found in the `recursion.c` file above
 
 Advantages:
 
@@ -41,7 +43,9 @@ Disadvantages:
 
 -   Exponential time complexity, as the function recalculates the same values multiple times.
 
-2.  Memoization
+### Memoization
+
+The source code can be found in the `emoization.c` file above
 
 Advantages:
 
@@ -54,6 +58,9 @@ Disadvantages:
 -   Recursive function calls may cause stack overflow errors for very large values of n.
 
 3.  Iterative Function
+
+The source code can be found in the `iteration.c` file above
+
 
 Advantages:
 
