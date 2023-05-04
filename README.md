@@ -30,3 +30,38 @@ How to Run:
 Note: If you are using a different operating system or compiler, the compilation and execution commands may be different. Please consult the documentation for your specific environment to learn how to compile and run C programs.
 
 ## 2. 
+1.  Recursive Function
+
+Advantages:
+
+-   Simple and easy to understand.
+-   Straightforward translation of the mathematical formula.
+
+Disadvantages:
+
+-   Exponential time complexity, as the function recalculates the same values multiple times.
+
+2.  Memoization
+
+Advantages:
+
+-   Improved time complexity over the recursive function, as the memoized values are stored in an array to avoid recalculations.
+-   Relatively simple implementation.
+
+Disadvantages:
+
+-   Requires additional memory to store the memoized values.
+-   Recursive function calls may cause stack overflow errors for very large values of n.
+
+3.  Iterative Function
+
+Advantages:
+
+-   Improved time complexity over the recursive function, as the iterative function calculates each value only once.
+-   Does not require additional memory for memoization.
+
+Disadvantages:
+
+-   Can be more difficult to understand than the recursive or memoized functions.
+
+In summary, the recursive function is the simplest to implement, but has the worst time complexity. The memoized and iterative functions have better time complexity, but require additional memory or may be more difficult to understand. Which implementation is best for a given situation will depend on the specific requirements of the program.
