@@ -29,7 +29,7 @@ How to Run:
 
 Note: If you are using a different operating system or compiler, the compilation and execution commands may be different. Please consult the documentation for your specific environment to learn how to compile and run C programs.
 
-## 2. 
+## 2. Recurrence
 1.  Recursive Function
 
 Advantages:
